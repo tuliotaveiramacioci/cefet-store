@@ -1,0 +1,12 @@
+header, footer {
+    padding: 2em;
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+}
+footer {bottom: 0}
+main {
+    height: 100vh;
+    padding: 5em;
+    background-color: #DDD;
+}
