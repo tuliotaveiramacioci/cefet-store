@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h1, h2, a {
+    font-family: 'Press Start 2P', cursive;
+    color: #EEE;
+}
+h1 {font-size: 2em}
+h2 {text-align: center}
+
 header, footer {
     padding: 2em;
     background-color: #222;
@@ -5,8 +14,19 @@ header, footer {
     width: 100%;
 }
 footer {bottom: 0}
+header {
+    top: 0;
+    color: #EEE;
+    display: flex;
+    justify-content: space-around;
+}
+header img {
+    height: 2em;
+    image-rendering: pixelated;
+}
+
 main {
     height: 100vh;
     padding: 5em;
-    background-color: #DDD;
+    background-color: #EEE;
 }
